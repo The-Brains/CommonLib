@@ -1,4 +1,4 @@
-package com.leobenkel.elasticsearchcommon
+package com.thebrains.elasticsearchcommon
 
 import com.sksamuel.elastic4s.ElasticsearchClientUri
 import com.sksamuel.elastic4s.http.HttpClient

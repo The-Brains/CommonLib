@@ -1,4 +1,4 @@
-package com.leobenkel.elasticsearchcommon
+package com.thebrains.elasticsearchcommon
 
 import scala.util.parsing.json.JSONFormat
 
