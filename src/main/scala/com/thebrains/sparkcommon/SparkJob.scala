@@ -1,6 +1,6 @@
-package com.leobenkel.sparkcommon
+package com.thebrains.sparkcommon
 
-import com.leobenkel.utils.Config
+import com.thebrains.utils.Config
 import org.apache.log4j.Logger
 import org.apache.spark.sql.SparkSession
 

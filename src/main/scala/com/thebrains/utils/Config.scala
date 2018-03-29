@@ -1,4 +1,4 @@
-package com.leobenkel.utils
+package com.thebrains.utils
 
 import org.rogach.scallop._
 
