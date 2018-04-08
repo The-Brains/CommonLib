@@ -46,12 +46,8 @@ object IoData {
   }
 
   def getTargetPath(filename: String): String = {
-    val currentTargetDir: Path = Paths.get(getClass.getClassLoader.getResource("").toURI)
-    val newFolderString = currentTargetDir.toString() + "/output"
-
-    val directory: File = File(newFolderString)
+    val directory: File = File(System.getProperty("user.dir") + s"/target/Output")
     directory.createDirectory(force = true, failIfExists = false)
-
 
     File(directory.toURL.getPath + filename)
       .toURL
